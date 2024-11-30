@@ -1,0 +1,38 @@
+/*container*/
+.sec2--cont--color{
+    background-color: #f7f7f7;
+}
+
+    
+/*card*/
+.sec2--card--color{
+    background-color: white;
+
+}
+
+.sec2--card--color h3{
+    color:#333;
+}
+
+.sec2--card--color p{
+    color:#666;
+}
+
+.sec2--card--color button{
+    text-decoration: none;
+    color:white;
+    background-color: #e75b39;
+    border: solid #000 1px;
+    border-radius: 40px;
+
+}
+
+.sec2--card--color button:hover{
+    background-color: #d14a2f;
+}
+
+.sec2--card--color a{
+    text-decoration: none;
+    color:white;
+
+}

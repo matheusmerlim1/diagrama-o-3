@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+header{
+    width: 100vw;
+    height: 400px;
+    background-image: url(../../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgba(256, 256, 256);
+   
+  }
+  header > h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+  }
+  header > p{
+    text-align: center;
+    color: rgba(256, 256, 256, .8);
+    font-size: 12px;
+  }
+  header > ul{
+    width: 450px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto 0px auto;
+  }
+   
+  header > ul > li{
+    color: rgba(256, 256, 256, .8);
+    list-style: none;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 100px;
+  }
+  header > ul > li:hover{
+    color: rgba(256, 256, 256, 1);
+    border: 1px solid;
+    cursor: pointer;
+  }
+  #active{
+    color: white;
+    border: 1px solid;
+  }

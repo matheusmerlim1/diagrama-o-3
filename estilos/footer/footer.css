@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+}
+
+.container {
+  gap: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+footer h3 {
+  color: white;
+  padding: 20px 0px;
+  text-align: left;
+}
+
+footer p {
+  color: rgb(173, 170, 170);
+  text-align: left;
+  padding: 10px 100px 10px 0px;
+  border-bottom: 1px solid;
+  border-color: rgb(173, 170, 170);
+}
+
+footer .c1 {
+  padding: 10px;
+}
+
+footer .ult {
+  border-bottom: 1px hidden;
+}
+
+footer > div {
+  padding: 40px;
+  margin: 10px 90px 10px 90px;
+}

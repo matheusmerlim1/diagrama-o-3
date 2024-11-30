@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@import url(/estilos/base/reset.css);
+@import url(/estilos/header/cabecalho.css);
+@import url(/estilos/main/main.css);
+@import url(/estilos/main/section2_estrutura.css);
+@import url(/estilos/main/section2_color.css);
+@import url(/estilos/footer/footer.css);

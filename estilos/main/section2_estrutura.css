@@ -1,0 +1,46 @@
+/* container*/
+.sec2--cont--est{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+
+}
+/*card*/
+.sec2--card--est{
+    flex:1;
+    text-align: left;
+    overflow: hidden;
+
+}
+
+.sec2--card--est img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.sec2--card--est h3{
+   font-size: 1.2rem;
+   margin: 15px 0;
+   
+
+}
+
+.sec2--card--est p{
+    width: auto;
+    height: 180px;
+    padding: 0 10px;
+}
+
+.sec2--card--est button{
+    display: inline-block;
+    margin: 15px 0;
+    padding: 20px 30px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: right;
+}
+
+.sec2--card--color a{
+    font-size: 1.0rem;}
